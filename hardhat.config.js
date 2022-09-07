@@ -26,8 +26,8 @@ module.exports = {
     },
     mainnet: {
       chainId: 1,
-      url: process.env.PROD_ALCHEMY_KEY,
-      accounts: [process.env.PRIVATE_KEY],
+      url: `${process.env.PROD_ALCHEMY_KEY}`,
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
 
   },
